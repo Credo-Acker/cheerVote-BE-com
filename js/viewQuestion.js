@@ -147,8 +147,7 @@ window.onload = function () {
             url: myurl + "/vote/admin/question/sel?key=" + key + "&aa=1",     //vote/admin/question/sel/{key}
             method: "GET",
             success: function (json) {
-                let data = JSON.parse(json);
-                console.log(data);
+                let data = json;
                 if (data) {
                     let ul = document.querySelector('.ul-question');
                     let child = ul.querySelectorAll('li');

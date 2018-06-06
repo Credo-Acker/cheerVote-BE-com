@@ -148,7 +148,7 @@ window.onload = function () {
             method: "GET",
             success: function (json) {
                 let data = JSON.parse(json);
-                console.log("data", data);
+                console.log("data", JSON.parse(data));
                 console.log("json", json);
                 
                 if (data) {

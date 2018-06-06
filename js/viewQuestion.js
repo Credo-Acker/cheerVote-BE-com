@@ -148,7 +148,7 @@ window.onload = function () {
             method: "GET",
             success: function (json) {
                 let data = JSON.parse(json);
-
+                console.log(data);
                 if (data) {
                     let ul = document.querySelector('.ul-question');
                     let child = ul.querySelectorAll('li');

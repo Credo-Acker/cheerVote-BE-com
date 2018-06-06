@@ -5,7 +5,7 @@ window.onload = function () {
     let search = document.querySelector('#search');
     let submit = document.querySelector('#submit');
     kind = UrlSearch();
-    let myurl = "http://newtol.cn";
+    let myurl = "http://www.newtol.cn";
 
     //星级
     switch (kind) {

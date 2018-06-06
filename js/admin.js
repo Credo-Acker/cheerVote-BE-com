@@ -35,7 +35,7 @@ window.onload = function () {
     let kind = 1;
     let role = getCookie('role');
     let exist = document.querySelector('#exist');
-    let myurl = "http://newtol.cn";
+    let myurl = "http://www.newtol.cn";
 
     //获取学院的信息
     ajax({

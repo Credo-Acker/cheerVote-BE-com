@@ -1,6 +1,6 @@
 window.onload = function () {
     let login = document.querySelector('.login');
-    let myurl = "http://newtol.cn";
+    let myurl = "http://www.newtol.cn";
 
     login.addEventListener('click', function (e) {
         let user = document.querySelector('#username').value;

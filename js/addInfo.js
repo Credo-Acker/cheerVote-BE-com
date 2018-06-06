@@ -40,7 +40,7 @@ window.onload = function () {
     let girlName = document.querySelector('#girlName');
     let girlInfo = document.querySelector('#girlInfo');
     let close = document.querySelector('.close');
-    let myurl = "http://newtol.cn";
+    let myurl = "http://www.newtol.cn";
 
     for (let i = 0; i < academy.length; i++) {
         if ((classId - 1) == i) {
